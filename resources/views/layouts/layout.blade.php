@@ -26,12 +26,15 @@
     <header>
     <!-- Navbar fixée top + logo -->
     <div class="navbar">
-        <h1>Château de Vaurs</h1>
+        <div class="title">
+            <h1>Château de Vaurs</h1>
+            <img src="{{ URL::asset('img/rossignol.png'); }}" alt="">
+        </div>
         <ul>
             <li><a href="/">Accueil</a></li>
-            <li><a href="">Appartements</a></li>
-            <li><a href="#">Agenda</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/appartements">Appartements</a></li>
+            <li><a href="/agenda">Agenda</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     </div>
     </header>
