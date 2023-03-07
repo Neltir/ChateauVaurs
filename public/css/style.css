@@ -1,0 +1,75 @@
+body{
+    background-color: #f0f0f0;
+    font-family: 'Catamaran', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    font-family: 'Libre Baskerville', serif;
+}
+h1{
+    font-size: 160%;
+}
+h2{
+    font-size: 200%;
+}
+.navbar{
+    display: flex;
+    height: 4vw;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c9bfb7;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.title{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+}
+.navbar h1{
+    margin-left: 8vw;
+    padding: 0;
+}
+.navbar img{
+    height: 2vw;
+}
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar ul li{
+    padding-right: 8vw;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: large;
+    color: rgb(46, 40, 37);
+}
+.container{
+    width: 80vw;
+}
+/* FIN GLOBAL */
+/* DEBUT INDEX */
+.parallax{
+    background-image: url("../img/vaurs.jpg");
+    height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6vw 6vw;
+}
+.box{
+    background-color: rgba(255, 255, 255, .85);
+    padding: 2vh 6vh;
+    width: 50vw;
+}
+.box p{
+    font-size: larger;
+}
+/* FIN INDEX */
+/* DEBUT CONTACT */
