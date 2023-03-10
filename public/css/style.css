@@ -21,6 +21,9 @@ h2{
     background-color: #c9bfb7;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+footer .navbar{
+    justify-content: center;
+}
 .title{
     width: 40vw;
     display: flex;
@@ -52,21 +55,26 @@ h2{
 .container{
     width: 80vw;
 }
+main{
+    display: flex;
+    justify-content: center;
+}
 /* FIN GLOBAL */
 /* DEBUT INDEX */
-.parallax{
+main .parallax{
+    display: block;
     background-image: url("../img/vaurs.jpg");
-    height: 60vh;
+    height: 70vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 6vw 6vw;
 }
 .box{
     background-color: rgba(255, 255, 255, .85);
     padding: 2vh 6vh;
     width: 50vw;
+    margin: 6vw 6vw;;
 }
 .box p{
     font-size: larger;

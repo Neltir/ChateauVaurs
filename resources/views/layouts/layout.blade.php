@@ -25,7 +25,7 @@
 <body>
     <header>
     <!-- Navbar fixée top + logo -->
-    <div class="navbar">
+    <nav class="navbar">
         <div class="title">
             <h1>Château de Vaurs</h1>
             <img src="{{ URL::asset('img/rossignol.png'); }}" alt="">
@@ -36,13 +36,20 @@
             <li><a href="/agenda">Agenda</a></li>
             <li><a href="/contact">Contact</a></li>
         </ul>
-    </div>
+    </nav>
+    
     </header>
     <main>
         @yield('content')
     </main>
     <footer>
-    <!-- Mentions légales CGU, cookies et contact -->
+    <!-- Mentions légales, cookies et contact -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="/mentions">Mentions légales</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>
